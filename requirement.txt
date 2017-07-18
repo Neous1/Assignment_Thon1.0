@@ -1,0 +1,35 @@
+Assignment-thon
+
+Javascript object for a car dealershiop
+
+3 car category: sendan, suv, sports
+
+rental price for each car category
+
+available or not
+
+total num available available for each category
+
+ability to submit a rental request 
+
+
+development deon in c9 , testing done in browser console or c9 console only.
+
+
+
+
+select a category (displayCategory)
+
+see price per category (displayPrice())
+
+when category selected remove from inventory ()
+
+display num of available category
+
+remove a category from inventory (.splice)
+
+
+
+
+
+
