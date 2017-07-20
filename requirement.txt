@@ -29,6 +29,20 @@ display num of available category
 remove a category from inventory (.splice)
 
 
+When user clicks on vehicles
+
+they should see:
+vehicle type e.g. Sedan
+rental cost: Price / per display
+
+a message: 
+ 1. button inviting user to click to reserve the vehicle 
+ or 
+ 2. a message saying "Sorry there are no "vehicle" on hand. and a button to take user back to the select a vehicle section
+
+ if user clicks on option 1 
+ a form pops up for user to provide info
+
 
 
 
