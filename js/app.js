@@ -72,7 +72,7 @@ function myFunction() {
     document.getElementById("demo").innerHTML = "Paragraph changed!";
 }
 
-document.getElementById('demo').value = rental.displayType;
+// document.getElementById('demo').value = rental.displayType;
 
 // console.log(rental.vehicles[0].type)
 rental.displayAll();
