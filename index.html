@@ -4,21 +4,28 @@
 	<title>Image Gallery</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="js/app.js"></script>
 </head>
 <body>
 	<header>
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-nav-demo" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#"><span aria-hidden="true" class="glyphicon glyphicon-picture"></span> EGoFstop Digital</a>
+					<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-nav-demo" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#"><span aria-hidden="true" class="glyphicon glyphicon-picture"></span> Dream Rentals</a>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-nav-demo">
 					<ul class="nav navbar-nav">
 						<li>
-							<a href="#">About</a>
+							<a href="#">Select</a>
 						</li>
 						<li>
-							<a href="#">Contact</a>
+							<a href="#">Price</a>
+						</li>
+						<li>
+							<a href="#">Availability</a>
+						</li>
+						<li>
+							<a href="#">Home</a>
 						</li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
@@ -66,6 +73,20 @@
 				<div class="thumbnail"><img src="/images/Sport.png"></div>
 			</div>
 		</div>
+		<div class="container">
+			<h1 >Your Selection <span id="rentSelect" onclick="rental.displayType();" >vehicle</span></h1>
+
+		</div>
+
+		<p id="demo1" onclick="myFunction()">Click me to change my HTML content (innerHTML).</p>
+
+		<form-group>
+			<div>
+				<label for="type">Vehicle Type:</label>
+				<input id="demo" type="text" value=" ">
+			</div>
+		</form-group>
+
 
 
 
@@ -116,9 +137,12 @@
 			</form>
 		</div>
 	</div>
+
 	<script src="https://code.jquery.com/jquery-3.1.1.js">
 	</script> 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-	</script>
+
+</script>
+	
 </body>
 </html>
