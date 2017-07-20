@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-nav-demo" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#"><span aria-hidden="true" class="glyphicon glyphicon-picture"></span> EGoFstop Digital</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-nav-demo">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">Sign Up</a>
+						</li>
+						<li>
+							<a href="#">Login</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="jumbotron">
+			<h1><span aria-hidden="true" class="glyphicon glyphicon-camera"></span> The jumbotron</h1>
+			<p>Some subtext goes her</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row, flex">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1446918662934-8a37d9e6659e"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://images.unsplash.com/9/johnny-lam-connect.jpg"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1463906033650-3288c7071a7b"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1476238209578-3c7111453c0e"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1475815422771-2f3e677b170b"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://images.unsplash.com/photo-1444968458904-07a562b0a68f"></div>
+			</div>
+		</div>
+		<div class="container"><!-- 2nd container for forms -->
+			<form>
+				<div class="form-group row">
+					<label class="col-sm-2 col-form-label" for="inputEmail3">Email</label>
+					<div class="col-sm-10">
+						<input class="form-control" id="inputEmail3" placeholder="Email" type="email">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label class="col-sm-2 col-form-label" for="inputPassword3">Password</label>
+					<div class="col-sm-10">
+						<input class="form-control" id="inputPassword3" placeholder="Password" type="password">
+					</div>
+				</div>
+				<fieldset class="form-group row">
+					<legend class="col-form-legend col-sm-2">Radios</legend>
+					<div class="col-sm-10">
+						<div class="form-check">
+							<label class="form-check-label"><input checked class="form-check-input" id="gridRadios1" name="gridRadios" type="radio" value="option1"> Option one is this and that&mdash;be sure to include why it's great</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label"><input class="form-check-input" id="gridRadios2" name="gridRadios" type="radio" value="option2"> Option two can be something else and selecting it will deselect option one</label>
+						</div>
+						<div class="form-check disabled">
+							<label class="form-check-label"><input class="form-check-input" disabled id="gridRadios3" name="gridRadios" type="radio" value="option3"> Option three is disabled</label>
+						</div>
+					</div>
+				</fieldset>
+				<div class="form-group row">
+					<label class="col-sm-2">Checkbox</label>
+					<div class="col-sm-10">
+						<div class="form-check">
+							<label class="form-check-label"><input class="form-check-input" type="checkbox"> Check me out</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="offset-sm-2 col-sm-10">
+						<button class="btn btn-primary" type="submit">Sign in</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.js">
+	</script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+</body>
+</html>

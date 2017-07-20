@@ -2,7 +2,7 @@ Assignment-thon
 
 Javascript object for a car dealershiop
 
-3 car category: sendan, suv, sports
+3 car category: Sedan, suv, sports
 
 rental price for each car category
 
