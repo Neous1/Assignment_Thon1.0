@@ -63,16 +63,6 @@ var rental = {
 
 };
 
-function rentSelect (){
-    document.getElementById("sedan").innerHTML = "";
-}
-
-
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Paragraph changed!";
-}
-
-// document.getElementById('demo').value = rental.displayType;
 
 // console.log(rental.vehicles[0].type)
 rental.displayAll();

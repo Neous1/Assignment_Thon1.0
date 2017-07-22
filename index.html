@@ -49,7 +49,7 @@
 
 	<span class="glyphicons glyphicons-cars"></span>
 
-	<div class="container">
+	<!-- <div class="container">
 		<section >
 			<div class="row">
 				<p>
@@ -60,8 +60,20 @@
 				</p>				
 			</div>			
 		</section>
-	</div>
+	</div> -->
 	<div class="container">
+		<div class="container">
+		<section >
+			<div class="row">
+				<p>
+					<label for="select">Please select a vehicle type :</label>
+					<button id="sedan" type="submit">SEDAN</button>
+					<button id="suv" type="submit">SUV</button>
+					<button id="sport" type="submit">SPORT</button>
+				</p>				
+			</div>			
+		</section>
+	</div>	
 		<div class="row, flex">
 			<div class="col-lg-4 col-sm-6">
 				<div class="thumbnail"><img src="/images/Sedan.png"></div>
@@ -74,16 +86,25 @@
 			</div>
 		</div>
 		<div class="container">
-			<h1 >Your Selection <span id="rentSelect" onclick="rental.displayType();" >vehicle</span></h1>
-
+			<h1 >You've Selected :
+			<input id="selectType" type="text" name="" value="" readonly>
+			</h1>
 		</div>
 
-		<p id="demo1" onclick="myFunction()">Click me to change my HTML content (innerHTML).</p>
+		<!-- <p id="demo1" onclick="myFunction()">Click me to change my HTML content (innerHTML).</p> -->
 
 		<form-group>
 			<div>
 				<label for="type">Vehicle Type:</label>
-				<input id="demo" type="text" value=" ">
+				<input id="type" type="text" value=" " readonly>
+			</div>
+			<div>
+				<label for="type">Vehicle Price:</label>
+				<input id="price" type="text" value=" " readonly>
+			</div>
+			<div>
+				<label for="type">Vehicle Quantity:</label>
+				<input id="qty" type="text" value=" " readonly>
 			</div>
 		</form-group>
 

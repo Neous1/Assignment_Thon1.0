@@ -44,6 +44,16 @@ a message:
  a form pops up for user to provide info
 
 
+________________________________________________
+
+when i click on the Sedan
+i want to see
+
+type = Sedan
+Price = 10.99
+qty = 9  and a button to reserve a sedan
+if qty is <=0 then display message "sorry we have Sedan to rent"
+
 
 
 
